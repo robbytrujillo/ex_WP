@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Interaktif</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kuis Interaktif</h1>
+        <div class="question">
+            <h2>Pertanyaan 1:</h2>
+            <p>Apa ibu kota Indonesia?</p>
+            <ul>
+                <li><input type="radio" name="q1" value="a"> a) Jakarta</li>
+                <li><input type="radio" name="q1" value="b"> b) Surabaya</li>
+                <li><input type="radio" name="q1" value="c"> c) Bandung</li>
+            </ul>
+        </div>
+        <div class="question">
+            <h2>Pertanyaan 2:</h2>
+            <p>Berapa hasil dari 2 + 2?</p>
+            <ul>
+                <li><input type="radio" name="q2" value="a"> a) 2</li>
+                <li><input type="radio" name="q2" value="b"> b) 4</li>
+                <li><input type="radio" name="q2" value="c"> c) 6</li>
+            </ul>
+        </div>
+        <!-- Tambahkan pertanyaan dan opsi jawaban lainnya di sini -->
+        <button onclick="checkAnswers()">Selesai</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
